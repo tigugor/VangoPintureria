@@ -1,9 +1,10 @@
 import  express  from "express";
+import {loggermid} from './utils.js'
 import usersRouter from './routes/users.routers.js'
 import handlebars from 'express-handlebars'
 
-
 const app = express()
+app.use(loggermid)
 
 app.use(express.static('./src/public'))
 app.engine('handlebars', handlebars.engine())
