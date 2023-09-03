@@ -3,10 +3,10 @@ import { Router } from "express";
 const router = Router()
 
 router.get('/', (req,res) => {
-    res.render('usuarios', {title:'Logueate', nombre_del_css:'usuarios'})
+    res.render('login/ingreso')
 })
-router.get('/lista', (req,res) => {
-    res.render('lista-usuarios', {title:'Lista Usuarios', nombre_del_css:'lista-usuarios'})
+router.get('/registro', (req,res) => {
+    res.render('login/registro')
 }) 
 
 router.post('/', (req,res) => {

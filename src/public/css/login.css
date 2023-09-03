@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{background-color:rgb(250, 208, 190);}
+
+.registro{
+    background-color: rgb(41, 4, 77);
+    height: 510px;
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 450px;
+    border-radius: 8px;
+   
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.content h2{
+    color: grey;
+    align-content: center;
+}
+.content p{
+    color: grey;
+    align-content: center;
+}
+.content input{
+    width: 250px;
+    align-content: center;
+}
+.ayuda{
+    display: flex;
+    flex-direction: column;
+}
+.ayuda a {
+    align-self: ;
+}
